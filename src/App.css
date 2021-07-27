@@ -1,0 +1,13 @@
+.slide-enter {
+  transform: translate(100%, 0);
+}
+.slide-enter-active {
+  transform: translate(0, 0);
+  transition: transform 300ms;
+}
+.slide-exit {
+  transform: translate(100%, 0);
+}
+.slide-exit-active {
+  transform: translate(100%, 0);
+}
